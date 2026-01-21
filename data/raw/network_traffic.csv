@@ -1,0 +1,6 @@
+packet_size,src_port,dst_port,protocol,time_interval,label
+200,1025,80,TCP,0.02,normal
+1500,1040,443,TCP,0.05,normal
+100,1032,22,TCP,0.10,anomaly
+400,1050,80,TCP,0.03,normal
+3000,1100,443,TCP,0.08,anomaly
