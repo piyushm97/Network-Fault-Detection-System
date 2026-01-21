@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 def load_and_preprocess(file_path):
     df = pd.read_csv(file_path)
     
-    # Encode protocol
+    # Encode protocol: TCP=0, UDP=1
     df['protocol'] = df['protocol'].map({'TCP':0, 'UDP':1})
     
     # Features only
@@ -15,3 +15,4 @@ def load_and_preprocess(file_path):
     X_scaled = scaler.fit_transform(X)
     
     return X_scaled, scaler
+
