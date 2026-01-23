@@ -38,4 +38,4 @@ Detect abnormal network behavior early to reduce incident resolution time.
 - Reduced false positives through feature normalization
 - Model generalizes well to unseen network traffic patterns
 
-## 📂 Project Structure
+
